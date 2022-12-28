@@ -64,6 +64,8 @@ jobs:
           script: |
             sudo docker pull ${{ secrets.DOCKER_USERNAME }}/yamdb_final
             sudo docker compose stop
+            chmod +x init-letsencrypt.sh
+            sudo ./init-letsencrypt.sh
             sudo docker compose rm web
             touch .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
