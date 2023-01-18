@@ -81,14 +81,5 @@ DATABASES_SWITCH=... if postgresql = True; if sqlt = False;
   "token": "Токен для авторизации на сервисе"
 }
 ```
-
-#### Contributors:
-
-[Виталий](https://github.com/vkoolko) - система аутентификации, авторизации, управление доступом пользователей. 
-
-[Максим](https://github.com/Alfaram) - отзывы (Review) и комментарии (Comments):  модели, представления, настраивает эндпойнты, определяет права доступа для запросов. рейтинги произведений
-
-[Светлана](https://github.com/lanazzk) - категории (Categories), жанры (Genres) и произведения (Titles): модели, представления и эндпойнты для них
-
 ### Лицензия [MIT](https://opensource.org/licenses/MIT)
 
